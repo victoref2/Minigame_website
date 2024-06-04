@@ -1,0 +1,28 @@
+﻿/* CSS/StyleSheet.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+#player-choices button, #computer-choices button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: lightgrey;
+    border: 2px solid transparent;
+}
+
+    #player-choices button.player-highlight, #computer-choices button.computer-highlight {
+        border-color: green !important;
+        background-color: lightgreen !important;
+    }
+
+    #computer-choices button.computer-highlight {
+        border-color: red !important;
+        background-color: lightcoral !important;
+    }

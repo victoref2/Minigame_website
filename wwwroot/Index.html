@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ROCKS AND PAPER(and a scissor)</title>
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="CSS/StyleSheet.css" rel="stylesheet" />
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div>
+        <h2>Your Choices</h2>
+        <div id="player-choices">
+            <button id="player-rock">Rock</button>
+            <button id="player-paper">Paper</button>
+            <button id="player-scissors">Scissors</button>
+        </div>
+    </div>
+    <div>
+        <h2>Computer's Choices</h2>
+        <div id="computer-choices">
+            <button id="computer-rock" disabled>Rock</button>
+            <button id="computer-paper" disabled>Paper</button>
+            <button id="computer-scissors" disabled>Scissors</button>
+        </div>
+    </div>
+    <div id="result">
+        <p>Your Choice: <span id="your-choice"></span></p>
+        <p>Computer's Choice: <span id="computer-choice"></span></p>
+        <p>Result: <span id="game-result"></span></p>
+    </div>
+    <script src="JavaScript.js"></script>
+</body>
+</html>

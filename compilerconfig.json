@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "wwwroot/CSS/StyleSheetless.css",
+    "inputFile": "wwwroot/CSS/StyleSheetless.less"
+  },
+  {
+    "outputFile": "wwwroot/CSS/StyleSheetsass.css",
+    "inputFile": "wwwroot/CSS/StyleSheetsass.scss"
+  }
+]
